@@ -1,13 +1,23 @@
 function validateForm(){
 	var name = document.getElementById("name").value;
     	if(name == ""){
+<<<<<<< HEAD
     		     alert("llenar el campo nombre por favor");
+=======
+    		var hermano = document.getElementById("name");
+    		var text = document.createTextNode("Debe ingresar su nombre");
+    		mensaje(hermano,text);
+>>>>>>> 1d59ea509982f9c620f04c14627234e06def6b7f
        } else if (/^[a-z]/.test(name.charAt(0))){
    	       alert("Por favor ingrese la primera letra en mayuscula");
        } else if (/^[0-9]/.test(name.charAt(0))){
           alert("Por favor no ingrese numeros");
+<<<<<<< HEAD
 		}
 		
+=======
+		}	
+>>>>>>> 1d59ea509982f9c620f04c14627234e06def6b7f
 	var lastname = document.getElementById("lastname").value;
 	    if (lastname == null || lastname.length == 0){
 		     var hermano = document.getElementById("lastname");
